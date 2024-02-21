@@ -7,15 +7,16 @@ from alpaca_trade_api import REST
 from timedelta import Timedelta 
 from finbert_utils import estimate_sentiment
 
-API_KEY = "YOUR API KEY" 
-API_SECRET = "YOUR API SECRET" 
+API_KEY = "CKH81VL3V33MEACP5ID0" 
+API_SECRET = "fnmtfJnHMPNjVoJcbg1Kwm0GIN8586otIp7VOhbd" 
 BASE_URL = "https://paper-api.alpaca.markets"
-
+print("fucking stupid")
 ALPACA_CREDS = {
     "API_KEY":API_KEY, 
     "API_SECRET": API_SECRET, 
     "PAPER": True
 }
+print("fucking stupid")
 
 class MLTrader(Strategy): 
     def initialize(self, symbol:str="SPY", cash_at_risk:float=.5): 
